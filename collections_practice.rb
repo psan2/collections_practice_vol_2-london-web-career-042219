@@ -29,14 +29,7 @@ def count_elements(array)
 end
 
 def merge_data(data1,data2)
-  hash1 = {}
-  data1.map do |item|
-    hash1.push
-  end
-  hash2 = data2.reduce({},:update)
-
-  hash2.each do |entry, data|
-  end
+  binding.pry
 end
 
 def find_cool(input)

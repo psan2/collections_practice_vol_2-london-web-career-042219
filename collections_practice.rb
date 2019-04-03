@@ -38,6 +38,7 @@ def merge_data(data1,data2)
         end
       end
     end
+    i += 1
   end
   data1
 end

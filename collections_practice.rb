@@ -29,8 +29,7 @@ def count_elements(array)
 end
 
 def merge_data(data1,data2)
-  new_hash = {}
-  data1.map do |set|
+  data2.each do |person|
     binding.pry
   end
 end

@@ -30,6 +30,7 @@ end
 
 def merge_data(data1,data2)
   data1.map do |set|
+    "#{set[:first_name]}" = set
     binding.pry
   end
 end

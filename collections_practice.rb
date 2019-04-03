@@ -39,6 +39,7 @@ def merge_data(data1,data2)
       end
     end
   end
+  data1
 end
 
 def find_cool(input)

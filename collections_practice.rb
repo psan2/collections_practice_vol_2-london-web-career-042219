@@ -29,7 +29,9 @@ def count_elements(array)
 end
 
 def merge_data(data1,data2)
-  binding.pry
+  data1.map do |set|
+    binding.pry
+  end
 end
 
 def find_cool(input)

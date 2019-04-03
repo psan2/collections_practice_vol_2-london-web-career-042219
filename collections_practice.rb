@@ -32,15 +32,11 @@ def merge_data(data1,data2)
   i = 0
   while
     i < data1.length do
-      "#{data1[i][:first_name]}" = i
-      i += 1
-      binding.pry
-    end
-  end
-
-  data2.each do |person|
-    person.each do |name, details|
-      binding.pry
+      data2.each do |person|
+        person.each do |name, details|
+          binding.pry
+        end
+      end
     end
   end
 end

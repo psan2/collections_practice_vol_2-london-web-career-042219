@@ -57,8 +57,6 @@ end
 
 def organize_schools(schools)
   schools.each do |school, data|
-    array_name = data.values.join
-    array_name.push(school)
     binding.pry
   end
 end

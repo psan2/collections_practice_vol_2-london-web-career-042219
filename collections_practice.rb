@@ -29,6 +29,10 @@ def count_elements(array)
 end
 
 def merge_data(data1,data2)
+  data1.each do |item|
+    binding.pry
+  end
+  
   data2.each do |person|
     person.each do |name, details|
       binding.pry

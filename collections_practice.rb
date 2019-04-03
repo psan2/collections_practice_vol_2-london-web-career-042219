@@ -30,11 +30,12 @@ end
 
 def merge_data(data1,data2)
   i = 0
-  while
-    i < data1.length do
-      data2.each do |person|
-        person.each do |name, details|
-          binding.pry
+  while i < data1.length do
+    data2.each do |person|
+      person.each do |name, details|
+        if name == data1[i][:first_name]
+          data1[i].update(details)
+        end
       end
     end
   end

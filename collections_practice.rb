@@ -35,7 +35,6 @@ def merge_data(data1,data2)
       data2.each do |person|
         person.each do |name, details|
           binding.pry
-        end
       end
     end
   end

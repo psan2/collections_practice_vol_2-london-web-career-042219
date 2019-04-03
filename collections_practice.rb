@@ -65,4 +65,5 @@ def organize_schools(schools)
       organized["#{data.values.join}"] << school
     end
   end
+  organized
 end

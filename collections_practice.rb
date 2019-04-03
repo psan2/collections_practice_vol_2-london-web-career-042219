@@ -56,7 +56,12 @@ def find_cool(input)
 end
 
 def organize_schools(schools)
+  organized = {}
   schools.each do |school, data|
-    binding.pry
+    if organized.has_key?(data.values.join)
+      organized["#{data.values.join}"] << school
+    else
+      organized["#{data.values.join}"] = []
+      organized["#{data.values.join}"] << school
   end
 end

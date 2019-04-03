@@ -29,8 +29,13 @@ def count_elements(array)
 end
 
 def merge_data(data1,data2)
-  data1.each do |item|
-    binding.pry
+  i = 0
+  while
+    i < data1.length do
+      "#{data1[i][:first_name]}" = i
+      i += 1
+      binding.pry
+    end
   end
 
   data2.each do |person|
